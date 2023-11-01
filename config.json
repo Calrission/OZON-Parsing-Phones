@@ -1,0 +1,11 @@
+{
+  "start_page": 1,
+  "output_type": "excel or db",
+  "excel_output_path": "devices.xlsx",
+  "database": "",
+  "user": "",
+  "password": "",
+  "host": "localhost",
+  "port": 5432,
+  "clear_table": true
+}

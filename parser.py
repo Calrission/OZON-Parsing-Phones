@@ -7,6 +7,7 @@ from time import sleep
 
 from selenium.webdriver.remote.webelement import WebElement
 
+from config import config
 from models import Device
 
 
@@ -20,7 +21,7 @@ def new_inst_driver() -> WebDriver:
 
 
 driver = new_inst_driver()
-page = 1
+page = config["start_page"]
 
 
 def update_page(new_page: int):
